@@ -1,6 +1,12 @@
 .character {
   height: 15em;
   width: 15em;
-  border: 1px black solid;
+  border: 3px #888 solid;
+  background-color: #ccc;
+  display: flex;
   // margin: 0;
+  img {
+    height: 15em;
+    margin: auto;
+  }
 }

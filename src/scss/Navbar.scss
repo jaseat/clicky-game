@@ -1,8 +1,17 @@
 .navbar {
   height: auto;
+  position: sticky;
+  top: 0;
+  background-color: #f8f8f8;
+  padding: 1em;
+  font-size: 1.2em;
   ul {
     list-style: none;
     display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
     li {
       display: inline-block;
       width: 33%;

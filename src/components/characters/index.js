@@ -1,50 +1,50 @@
 exports.characters = [
   {
     id: 0,
-    img: null,
+    img: require('../../img/Bush.jpeg'),
   },
   {
     id: 1,
-    img: null,
+    img: require('../../img/Clinton.jpg'),
   },
   {
     id: 2,
-    img: null,
+    img: require('../../img/FDR.jpg'),
   },
   {
     id: 3,
-    img: null,
+    img: require('../../img/Jackson.jpg'),
   },
   {
     id: 4,
-    img: null,
+    img: require('../../img/Jefferson.jpg'),
   },
   {
     id: 5,
-    img: null,
+    img: require('../../img/JFK.jpg'),
   },
   {
     id: 6,
-    img: null,
+    img: require('../../img/Lincoln.jpg'),
   },
   {
     id: 7,
-    img: null,
+    img: require('../../img/Nixon.jpg'),
   },
   {
     id: 8,
-    img: null,
+    img: require('../../img/Obama.jpg'),
   },
   {
     id: 9,
-    img: null,
+    img: require('../../img/Reagan.jpg'),
   },
   {
     id: 10,
-    img: null,
+    img: require('../../img/Roosevelt.jpg'),
   },
   {
     id: 11,
-    img: null,
+    img: require('../../img/Washington.jpg'),
   },
 ];

@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import Navbar from './navbar';
 import Display from './Display';
 
+import '../scss/App.css';
+
 import { characters } from './characters';
 
 const STATE = {
-  START: 'Click an image to begin',
-  CORRECT: 'You guessed right!',
-  INCORRECT: 'You guessed wrong',
+  START: 'START',
+  CORRECT: 'CORRECT',
+  INCORRECT: 'INCORRECT',
 };
 
 class App extends Component {
@@ -60,8 +62,9 @@ class App extends Component {
         <Navbar
           score={this.state.score}
           topScore={this.state.topScore}
-          msg={this.state.state}
+          state={this.state.state}
         />
+        <header className="header" />
         <Display
           onClick={this.handleClick}
           characters={this.state.characters}

@@ -9,7 +9,6 @@ class Character extends Component {
         className="character"
       >
         <img src={this.props.character.img} />
-        <h1>{this.props.character.id}</h1>
       </div>
     );
   }

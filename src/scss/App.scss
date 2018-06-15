@@ -1,0 +1,15 @@
+body {
+  background-color: #eee;
+  margin: 0;
+  // margin-top: -1em;
+}
+
+.header {
+  min-height: 10em;
+  max-height: 25em;
+  height: 50vw;
+  background-image: url('../img/seal.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
